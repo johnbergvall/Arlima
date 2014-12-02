@@ -67,8 +67,7 @@ class Arlima_TemplatePathResolver
                 }
             }
         }
-
-        return $templates;
+        return apply_filters('arlima_templates_array', $templates);
     }
 
     /**
